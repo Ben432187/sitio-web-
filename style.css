@@ -1,0 +1,85 @@
+/* ---------- Fuente y estilo general ---------- */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Merriweather:wght@700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+        background-color: #f5f7fa;
+            color: #2e2e2e;
+                line-height: 1.7;
+                    margin: 0;
+                        padding: 0;
+                        }
+
+                        /* ---------- Encabezado ---------- */
+                        header {
+                            background-color: #2a7c4d;
+                                color: #fff;
+                                    text-align: center;
+                                        padding: 3rem 1rem;
+                                        }
+
+                                        header h1 {
+                                            font-family: 'Merriweather', serif;
+                                                font-size: 2.2rem;
+                                                    margin: 0;
+                                                    }
+
+                                                    /* ---------- Contenido ---------- */
+                                                    main {
+                                                        max-width: 900px;
+                                                            margin: 2rem auto;
+                                                                padding: 0 1.5rem;
+                                                                    background: #ffffff;
+                                                                        border-radius: 12px;
+                                                                            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+                                                                            }
+
+                                                                            section {
+                                                                                margin-bottom: 2rem;
+                                                                                }
+
+                                                                                h2, h3 {
+                                                                                    color: #20663a;
+                                                                                    }
+
+                                                                                    h2 {
+                                                                                        font-size: 1.6rem;
+                                                                                            margin-top: 1.8rem;
+                                                                                            }
+
+                                                                                            h3 {
+                                                                                                font-size: 1.3rem;
+                                                                                                    margin-top: 1.2rem;
+                                                                                                    }
+
+                                                                                                    p {
+                                                                                                        margin: 0.8rem 0;
+                                                                                                            text-align: justify;
+                                                                                                            }
+
+                                                                                                            /* ---------- Pie de página ---------- */
+                                                                                                            footer {
+                                                                                                                background-color: #2a7c4d;
+                                                                                                                    color: #fff;
+                                                                                                                        text-align: center;
+                                                                                                                            padding: 1.2rem 0;
+                                                                                                                                font-size: 0.9rem;
+                                                                                                                                    margin-top: 3rem;
+                                                                                                                                        border-top: 3px solid #1e5c36;
+                                                                                                                                        }
+
+                                                                                                                                        /* ---------- Detalles visuales ---------- */
+                                                                                                                                        strong {
+                                                                                                                                            color: #1e5c36;
+                                                                                                                                            }
+
+                                                                                                                                            @media (max-width: 600px) {
+                                                                                                                                                header h1 {
+                                                                                                                                                        font-size: 1.6rem;
+                                                                                                                                                            }
+
+                                                                                                                                                                main {
+                                                                                                                                                                        padding: 1rem;
+                                                                                                                                                                            }
+                                                                                                                                                                            }
+                                                                                                                                                                            
